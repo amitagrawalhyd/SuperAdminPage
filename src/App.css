@@ -1,0 +1,280 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+}
+button,
+p,
+a,
+span,
+label,
+th,
+td,
+input,
+select {
+  font-size: 13px !important;
+}
+a {
+  cursor: pointer;
+}
+.ps-menu-button link {
+  font-size: 12px;
+}
+::placeholder {
+  font-size: 12px !important;
+}
+.cust_dropdown {
+  padding: 5px 40px 8px 10px;
+}
+.dropdown-item {
+  font-size: 14px;
+}
+.user_dropdown {
+  width: 110px;
+}
+
+svg {
+  width: 20px !important;
+}
+
+.section {
+  margin-left: 250px;
+  width: 80%;
+  height: 100%;
+  padding: 1.5rem;
+  position: absolute;
+}
+
+.link.selected {
+  background-color: #e0e0e0;
+}
+
+.form_transaction {
+  margin: 15px 0px;
+}
+.form_transaction input {
+  /* width: 180px; */
+}
+.form_transaction label {
+  font-size: 14px;
+}
+::placeholder {
+  font-size: 12px;
+}
+.dashboard-form {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.dashboard-details {
+  width: 100%;
+  height: 100%;
+}
+
+.custom-checkbox {
+  transform: scale(1.5); /* Adjust the scale factor as needed */
+}
+
+.react-datepicker__input-container {
+  width: 200px; /* Set the desired width */
+}
+
+.scanned-container {
+  /* width: 30%; */
+  /* height: 300px; */
+  border: 1px solid #ddd;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+.expired-container {
+  border: 1px solid #ddd;
+  /* width: 30%; */
+}
+
+/* notifications */
+.notification-container {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 15px; */
+  /* background-color: aqua; */
+  margin: 0 auto;
+  flex-direction: column;
+}
+.notification-form {
+  display:flex;
+  margin-top: 10px;
+  width: 100%;
+  height:60vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* padding:10px; */
+}
+.notification-title {
+  border: 0;
+  border-bottom: 1px solid gray;
+  margin: 10px;
+  outline: none;
+  height: 30px;
+  width: 90%;
+  padding: 10px;
+}
+.notification-description {
+  resize: none;
+  min-width: 90%;
+  min-height: 60px;
+  padding: 10px;
+  outline: none;
+  margin-top: 10px;
+}
+.created_box {
+  width: 250px;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin: 0px 10px;
+}
+.created_box p {
+  padding: 8px 0;
+  font-weight: 500;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Manual Entry */
+.manual-entry-container {
+  /* background-color: aqua; */
+  /*height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.manual-entry-form {
+  width: 40%;
+  height: 50vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  position: relative;
+}
+.manual-entry-form input {
+  width: 90%;
+  font-size: 14px;
+  margin-top: 10px;
+  /* justify-self: center; */
+}
+.manual-entry-form label {
+  font-size: 16px;
+}
+
+/*User List*/
+.user-form-container {
+  /* background-color: aqua; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-form {
+  /* width: 70%; */
+  /* height: 100%; */
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  /* background-color: aqua; */
+}
+
+.user-form input {
+  /* margin:5px 0px; */
+  border: 0;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+.user-form label,
+input {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.user_list_drop_down {
+  width: 150px;
+  height: 34px;
+  font-size: 13px !important;
+}
+.coupon_history_dropdown{
+  width: 100px;
+  height: 34px;
+  font-size: 13px !important;
+}
+.transaction_dropdown {
+  width: 140px;
+  height: 34px;
+  font-size: 13px !important;
+}
+/* transaction dropdown */
+.Dropdown-control{
+  height:33px; 
+}
+
+.btn-light {
+  cursor: not-allowed;
+}
+.logo {
+  width: 70%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: auto; */
+}
+
+.scanned-container div tr th {
+  text-align: center;
+  width: 100%;
+  padding: 5px 10px !important;
+}
+
+.form-error{
+  font-size: 11px; 
+}
+
+.dp-width{
+  width: 10vw;
+}
+.react-datepicker__input-container {
+width: 100%;
+}
